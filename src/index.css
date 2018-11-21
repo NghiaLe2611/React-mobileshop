@@ -1,0 +1,179 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+ul{
+  list-style: none;
+}
+
+a:hover,
+a:focus,
+a:active{
+  text-decoration: none;
+}
+
+
+
+/* -----Header----- */
+
+a.navbar-brand{
+  display: flex;
+  align-items: center;
+  color: #4da4bc !important;  
+}
+
+a.navbar-brand:hover{
+  color: #09d9fe !important;
+}
+
+ul.nav > li > a{
+  display: flex;
+  align-items: center;
+  color: #9d9d9d;
+}
+
+ul.nav > li > a:hover{
+  color: #fff;
+}
+
+ul.nav li a span:first-child{
+  display: flex;
+  align-items: center;
+}
+
+ul.nav li i{
+  padding-right: 5px;
+  font-size: 20px;
+}
+
+.navbar-form input{
+  background-color: #3f3f3f;
+  border-color: #3f3f3f;
+  transition: none !important;
+}
+
+.navbar-form input:focus{
+  background-color: #fff;
+  border-color: #ccc;
+}
+
+.search-btn{
+  color: #fff;
+  background-color: #4da4bc;
+  border-color: #4da4bc;
+  border-radius: 0 4px 4px 0;
+  margin-left: -3px;
+}
+
+.main{
+  margin-top: 50px;
+  background: #f5f5f5;
+  padding: 20px 0;
+}
+
+/* -----Filter----- */
+
+.filter{
+  background: #fff;
+}
+
+.filter h3{
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+}
+
+.filter-item{
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+}
+
+.filter-item h4{
+  margin: 0;
+  font-weight: 500;
+}
+
+ul.filter-list{
+  margin-top: 20px;
+}
+
+/* -----Carousel----- */
+.carousel-inner .item img{
+  width: 100%;
+}
+
+.carousel-indicators li{
+  background-color: #4da4bc;
+  border-color: #4da4bc;
+}
+
+.right{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.right img{
+  width: 100%;
+}
+
+.main-product{
+  margin-top: 30px;
+}
+
+.product-container{
+  display: flex;
+  margin-top: 30px;
+}
+
+.product-list h3{
+  text-transform: uppercase;
+  padding: 15px;
+  background-color: #4da4bc;
+  color: #fff;
+}
+
+.product-list img{
+  max-width: 100%;
+  height: auto;
+}
+
+.product-item{
+  display: flex;
+  flex-direction: column;
+  width: calc(100% * (1/5) - 30px);
+  margin-right: 30px;
+  padding: 10px;
+  background-color: #fff;
+  justify-content: space-between;
+}
+
+.product-item:hover{
+  box-shadow: 1px 2px 7px 0 rgba(0,0,0,.21);
+}
+
+p.product-name{
+  margin-top: 20px;
+  text-align: center;
+}
+
+p.price{
+  color: #D52036;
+  font-weight: bold;
+  text-align: center;
+}
+
+span.sale{
+  color: #000;
+  font-weight: normal;
+  text-decoration: line-through;
+  margin-left: 10px;
+}
+
+.footer{
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px 0;
+  background-color: #222;
+  color: #9d9d9d;
+}
